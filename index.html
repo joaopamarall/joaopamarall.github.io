@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,11 +15,71 @@
     <!-- CSS do Projeto-->
     <link rel="stylesheet" href="/css/style.css">
 </head>
+
 <body>
-    <h1>João</h1>
-    
+    <main id="container">
+        <aside id="bio-container">
+            <h2>João Pedro Amaral</h2>
+            <img id="bio-image" src="/image/perfil.jpg" alt="João Pedro Amaral">
+            <p>Olá, meu nome é João e sou <span class="highlight">Desenvolvedor Front-End</span></p>
+            <p id="welcome-text">Seja bem-vindo!</p>
+            <ul id="social-container">
+                <li><a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-amaral-699808232/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/joaopamarall/" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="#" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+            </ul>
+            <div id="email-container">
+                <ion-icon name="mail-outline"></ion-icon>
+                <a href="mailto:joaoamaral56@gmail.com" target="_blank">joaoamaral56@gmail.com</a>
+            </div>
+        </aside>
+        <section id="about-container">
+            <h1 id="name">João Pedro Amaral</h1>
+            <p id="title"><span class="highlight">Desenvolvedor Front-End</span></p>
+            <p id="description">Olá, meu nome é João, sempre me interessei por tecnologia e como ela pode ser
+                eficiente para resolver problemas e melhorar a vida das pessoas.
+                Atualmente <span class="highlight">estou cursando Engenharia de Software</span>. Apesar de ainda não ter
+                experiência na área, eu acredito que o meu perfil é um item diferencial.
+                Na minha perspectiva, sou uma pessoa que vai entregar muito mais do que é pedido, pois tenho essa
+                vontade de aprender, sou proativo e sempre busco ajudar no que for necessário.
+                Além disso, <span class="highlight">sou alguém que pergunta, questiona e levanta a mão quando estou
+                    muito tempo impedido numa atividade.</span>
+                Também sou alguém que preza muito pela comunicação não agressiva e pelo respeito às pessoas, zelando
+                sempre pelo ambiente de trabalho saudável e acolhedor.
+                Estou procurando por uma empresa que preze por pessoas e que não me veja apenas como mais um recurso.
+                Quero encontrar um lugar que me proporcione oportunidades de crescimento e que eu possa prosperar como
+                profissional.
+                Acredito que essa busca pelo crescimento é algo muito importante para minha carreira e <span
+                    class="highlight">espero encontrar uma empresa que me permita alcançar meus objetivos
+                    profissionais.</span></p>
+            <a href="https://github.com/joaopamarall" id="btn-projects" target="_blank"><ion-icon name="share-social-outline"></ion-icon><span>Ver Projetos</span></a>
+            <h2 id="skills-section-title">Minhas skills</h2>
+            <p class="description">Conheça as tecnologias que domino:</p>
+            <div id="skills-container">
+                  <div class="skills-box">
+                    <p class="skills-title">Front-End</p>
+                    <i class="devicon-html5-plain colored"></i>
+                    <i class="devicon-css3-plain colored"></i>
+                    <i class="devicon-javascript-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Databases</p>
+                    <i class="devicon-mysql-plain colored"></i>
+                    <i class="devicon-mongodb-plain colored"></i>
+                </div>
+                <div class="skills-box">
+                    <p class="skills-title">Front-End Frameworks</p>
+                    <i class="devicon-react-plain colored"></i>
+                    <i class="devicon-vuejs-plain colored"></i>
+                    <i class="devicon-bootstrap-plain colored"></i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- Ion Icons-->
     <i class="devicon-adonisjs-original"></i>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
 </body>
+
 </html>
